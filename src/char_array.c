@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 char	**create_char_array_copy(char **src, int extra)
 {

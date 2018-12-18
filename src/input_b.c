@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 void	display_shell_prompt(t_shell *sh)
 {

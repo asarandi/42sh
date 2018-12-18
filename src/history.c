@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 char	*history_get_item(t_shell *sh, int index)
 {

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 char	*dir_slash_exec(char *dir, char *cmd)
 {

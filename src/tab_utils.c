@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 int		tab_count_matches(t_shell *sh, char *str)
 {

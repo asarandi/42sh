@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 char	*builtin_cd_get_path(t_shell *sh, char **argv)
 {

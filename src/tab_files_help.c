@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 int		tab_files_array_of_matches_help1(char ***a, char *search, int *len)
 {

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 char	*g_builtin_list[] = {
 	"cd", "echo", "env", "exit", "setenv", "unsetenv",
@@ -37,15 +37,14 @@ void	help_selection(char *cmd)
 	int	i;
 
 	i = 0;
-	while (g_builtin_list[i] != '\0')
+	while (g_builtin_list[i] != NULL)
 	{
-		if (g_builtin_list[i] && (i >= 0))
-		{
-			if (ft_strcmp(cmd, g_builtin_list[i]) == 0)
-				return (void)ft_printf(1, "\n\033[37;1m\t%s\033[0m -> %s\n\n",
-				g_builtin_list[i], g_punani_list[i]);
-				i++;
-		}
+		if (ft_strcmp(cmd, g_builtin_list[i]) == 0)
+        {
+			return (void)ft_printf(1, "\n\033[37;1m\t%s\033[0m -> %s\n\n",
+            g_builtin_list[i], g_punani_list[i]);
+        }
+			i++;
 	}
 }
 
@@ -57,7 +56,7 @@ void	help_list(void)
 	i = 0;
 	j = 0;
 	cmd_title();
-	while (g_builtin_list[i] != '\0')
+	while (g_builtin_list[i] != NULL)
 	{
 		j++;
 		if (i >= 0 && i < 10)

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/parse.h"
+#include "parse.h"
 
 t_autocomplet	type_to_complet(char *str)
 {

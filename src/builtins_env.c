@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 int		builtin_setenv_kv(t_shell *sh, char **argv, int arg_count)
 {

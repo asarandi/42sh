@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/parse.h"
+#include "parse.h"
 
 t_ast	*validate_lexer(t_ast *lex)
 {

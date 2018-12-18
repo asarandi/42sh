@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 t_exec	**tab_array_of_matches(t_shell *sh, char *str)
 {

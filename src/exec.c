@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ft.h"
+#include "ft.h"
 
 int		fork_exec_wait(t_shell *sh, t_process *p, char *fullpath)
 {
